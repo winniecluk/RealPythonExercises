@@ -50,16 +50,31 @@
 
 # print(doubles(2))
 
-print(1 <= 1)
-#True
-print(1 != 1)
-#False
-print(1 != 2)
-#True
-print('good' != 'bad')
-#True
-print('good' != 'Good')
-#True
-print(123 == '123')
-#False
+# print(1 <= 1)
+# #True
+# print(1 != 1)
+# #False
+# print(1 != 2)
+# #True
+# print('good' != 'bad')
+# #True
+# print('good' != 'Good')
+# #True
+# print(123 == '123')
+# #False
 
+
+# def cube(num):
+#     return num **c
+
+
+def input(word):
+    stored_word = str(word)
+    if len(stored_word) < 5:
+        print('word is less than 5 letters')
+    elif len(stored_word) == 5:
+        print('word has 5 letters')
+    else:
+        print('word has more than 5 letters')
+
+input('turkey')
